@@ -5,23 +5,40 @@
   --dark-gray: grey;
   --off-white: #f3f4f6;
 }
+.container {
+  padding: 0rem 1rem;
+}
+.navigation {
+  background-color: var(--primary-color);
+  color: white;
+  width: 100%;
+  border-bottom-left-radius: 1rem;
+}
+
+.link-active {
+  font-weight: bold;
+}
+.navigation .nav-pills {
+  text-align: right;
+  padding: 1rem;
+}
+.navigation .link {
+  color: white;
+}
 
 body {
-  background-color: var(--primary-color);
-  color: var(--off-white);
   font-family: "Montserrat", sans-serif;
   margin: 0;
   align-items: center;
   display: flex;
   flex-direction: column;
-  padding: 10%;
 }
 
-#quiz {
-  width: auto;
-  padding: 10px;
+#triangle-checker {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
   margin: auto;
-  align-items: center;
 }
 
 #triangle-checker > input {
@@ -49,6 +66,9 @@ button {
   text-align: center;
   color: white;
   border-top-right-radius: 1rem;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 .footer .link {
   color: white;
@@ -63,4 +83,13 @@ button {
 .list-inline {
   display: inline;
   padding: 0rem 1rem;
+}
+.nav-brand {
+  font-weight: bold;
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+.link {
+  text-decoration: none;
 }

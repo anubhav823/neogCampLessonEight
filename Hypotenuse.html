@@ -4,10 +4,27 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="hypotenuseStyles.css" />
+    <link rel="stylesheet" href="styles/hypotenuseStyles.css" />
     <title>Hypotenuse Calculator</title>
   </head>
   <body>
+    <nav class="navigation container">
+      <div class="nav-brand">Fun With Triangles</div>
+      <ul class="nav-pills no-bullet">
+        <li class="list-inline">
+          <a class="link" href="/triangleAngles.html">Angles</a>
+        </li>
+        <li class="list-inline">
+          <a class="link" href="/quiz.html">Quiz</a>
+        </li>
+        <li class="list-inline">
+          <a class="link link-active" href="/Hypotenuse.html">Hypotenuse</a>
+        </li>
+        <li class="list-inline">
+          <a class="link" href="/TriangleArea.html">Area</a>
+        </li>
+      </ul>
+    </nav>
     <h2>Calculate hypotenuse of triangle</h2>
     <form id="hypotenuse">
       <label for="base">Enter base-</label>
@@ -19,7 +36,6 @@
     <h2>Formula for calculating hypotenuse-</h2>
     <h3>√(base² + height²)</h3>
     <p id="output"></p>
-    <script src="hypotenuseScript.js"></script>
     <footer class="footer">
       <h2>Connect with me on social media</h2>
       <ul class="social-links no-bullet">
@@ -39,5 +55,7 @@
         </li>
       </ul>
     </footer>
+    
+    <script src="scripts/hypotenuseScript.js"></script>
   </body>
 </html>
