@@ -17,17 +17,14 @@ body {
   padding: 10%;
 }
 
-#quiz {
+#hypotenuse {
   width: auto;
   padding: 10px;
   margin: auto;
   align-items: center;
+  display: flex;
+  flex-direction: column;
 }
-
-#triangle-checker > input {
-  margin: 10px;
-}
-
 button:active {
   background-color: rgb(61, 61, 61);
 }
