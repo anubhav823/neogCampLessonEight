@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="quizstyles.css" />
+    <title>Triangle Quiz</title>
+  </head>
+  <body>
+    <h2>Do you know about triangles?</h2>
+    <form id="quiz">
+      <p>
+        What is the third angle of a triangle if two of its angles are 45* and
+        90*?
+      </p>
+      <input type="radio" name="third_angle" id="radio-input-45" value="45"/>
+      <label for="45">45*</label>
+      <input type="radio" name="third_angle" id="radio-input-60" value='60'/>
+      <label for="60">60*</label>
+      <input type="radio" name="third_angle" id="radio-input-35" value='35'/>
+      <label for="35">35*</label>
+
+      <p>What do you call a triangle that has 2 sides equal?</p>
+      <input type="radio" name="triangle_name" id="equilateral" value='equilateral'/>
+      <label for="equilateral">Equilateral</label>
+      <input type="radio" name="triangle_name" id="isoceles" value="isoceles"/>
+      <label for="isoceles">Isoceles</label>
+      <input type="radio" name="triangle_name" id="scalene" value="scalene"/>
+      <label for="scalene">Scalene</label>
+      <p>If the largest angle in a triangle is 70°, what is the least possible value of the smallest angle of the triangle?</p>
+      <input type="radio" name="angle_measure" id="30" value='30'/>
+      <label for="30*">30*</label>
+      <input type="radio" name="angle_measure" id="10" value="10"/>
+      <label for="10*">10*</label>
+    </form>
+    <button type="submit" id="submit_button"><strong>Submit</strong></button>
+    <p id="result"></p>
+    <script src="scriptsQuiz.js"></script>
+  </body>
+</html>

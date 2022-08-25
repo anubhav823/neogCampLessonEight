@@ -17,25 +17,17 @@ body {
   padding: 10%;
 }
 
-#triangle-checker {
-  display: flex;
-  flex-direction: column;
-  width: 25%;
+#quiz {
+  width: auto;
+  padding: 10px;
   margin: auto;
+  align-items: center;
 }
 
 #triangle-checker > input {
   margin: 10px;
 }
 
-/* input{
-    outline: none;
-    border-radius: 0px;
-    background: none;
-    background-color: var(--off-white);
-    border: none;
-    padding: 0.4rem;
-} */
 button:active{
     background-color: rgb(61, 61, 61);
 }
