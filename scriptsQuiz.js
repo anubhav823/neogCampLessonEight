@@ -4,7 +4,6 @@ const quiz = document.querySelector("#quiz")
 
 
 const result = document.querySelector('#result')
-// console.log(values);
 button.addEventListener('click', calculateScores);
 
 function calculateScores() {
